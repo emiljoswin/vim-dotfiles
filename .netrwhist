@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/emil/workspace/couch'
+let g:netrw_dirhist_2='/home/emil/workspace'
+let g:netrw_dirhist_3='/home/emil/workspace/hacks'
+let g:netrw_dirhist_4='/usr/share/bug/sendmail-cf'
+let g:netrw_dirhist_5='/usr/share/doc/sendmail-cf'
+let g:netrw_dirhist_6='/usr/share/doc/sendmail/examples'
+let g:netrw_dirhist_7='/usr/share/doc/sendmail-cf/examples'
+let g:netrw_dirhist_8='/usr/share/doc/sendmail-cf/examples/network'
+let g:netrw_dirhist_9='/usr/share/doc/sendmail-cf/examples/network/if-down.d'
