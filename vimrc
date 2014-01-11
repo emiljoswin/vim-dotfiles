@@ -20,6 +20,7 @@ autocmd FileType make set tabstop=8 noexpandtab
 autocmd FileType javascript set tabstop=2 expandtab
 autocmd FileType cpp set tabstop=2 expandtab
 autocmd FileType python set tabstop=2 expandtab 
+autocmd FileType html,xml, source ~/.vim/scripts/closetag.vim 
 "autocmd FileType python colorscheme slate
 autocmd FileType lisp set tabstop=8 noexpandtab
 set ls=2
