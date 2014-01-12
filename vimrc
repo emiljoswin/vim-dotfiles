@@ -18,9 +18,9 @@ set incsearch
 syntax on 
 "tabstop - set the number of columns a tab counts for. This is the only command that affects how the existing text is displayed.
 "expandtab - inserts <tabstop> number of spaces for each press of tab. Substituting spaces instead of tabs is used for java like languages, javascript etc. If not set it doesn't substitute space for tabs. 
-set tabstop=2
+"set tabstop=2
 autocmd FileType make set tabstop=8 noexpandtab
-autocmd FileType javascript set tabstop=2 expandtab
+autocmd FileType javascript set tabstop=2 expandtab shiftwidth=2
 autocmd FileType cpp set tabstop=2 expandtab
 autocmd FileType python set tabstop=2 expandtab 
 autocmd FileType html,xml, source ~/.vim/scripts/closetag.vim 
@@ -34,3 +34,4 @@ set autochdir "change directory automatically. handy in gvim.
 :nmap \l :set number!<CR>
 :nmap \q :noh<CR>
 :imap jk <Esc>
+inoremap 	{<CR> {<CR>}<Esc>O
