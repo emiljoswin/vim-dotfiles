@@ -1,4 +1,7 @@
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()
 execute pathogen#infect()
+filetype plugin indent on
 
 if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
 	set t_Co=256
@@ -8,7 +11,7 @@ set number
 set hlsearch
 "set smartindent
 "hi search ctermbg=11
-colorscheme desert
+colorscheme twilight256
 set cursorline
 set autoindent
 set incsearch
@@ -30,3 +33,4 @@ set autochdir "change directory automatically. handy in gvim.
 :nmap \a :set autoindent!<CR>
 :nmap \l :set number!<CR>
 :nmap \q :noh<CR>
+:imap jk <Esc>
