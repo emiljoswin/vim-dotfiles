@@ -7,11 +7,15 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gno
 	set t_Co=256
 endif
 
+if has("gui_running")
+	colorscheme twilight
+else
+	colorscheme twilight256
+endif
+       
 set number
 set hlsearch
 "set smartindent
-"hi search ctermbg=11
-colorscheme twilight256
 set cursorline
 set autoindent
 set incsearch
