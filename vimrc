@@ -38,4 +38,10 @@ set autochdir "change directory automatically. handy in gvim.
 :nmap \l :set number!<CR>
 :nmap \q :noh<CR>
 :imap jk <Esc>
+:nmap j gj
+:nmap k gk
+noremap H ^
+noremap L $
+
 inoremap 	{<CR> {<CR>}<Esc>O
+
