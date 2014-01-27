@@ -17,6 +17,7 @@ set number
 set hlsearch
 "set smartindent
 set cursorline
+set wildmenu
 set autoindent
 set incsearch
 syntax on 
