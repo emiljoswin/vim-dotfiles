@@ -4,7 +4,7 @@ execute pathogen#infect()
 filetype plugin indent on
 
 if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
-	set t_Co=256
+	let &t_Co=256
 endif
 
 if has("gui_running")
