@@ -38,6 +38,8 @@ set autochdir "change directory automatically. handy in gvim.
 
 :nmap \a :set autoindent!<CR>
 :nmap \l :set number!<CR>
+:nmap \h :sp
+:nmap \v :vsp
 :nmap \q :noh<CR>
 :imap jk <Esc>
 :nmap j gj
