@@ -13,7 +13,7 @@ else
 	colorscheme twilight256
 endif
        
-"set number
+set number
 set hlsearch
 "set smartindent
 set cursorline
