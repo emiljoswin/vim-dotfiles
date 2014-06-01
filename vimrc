@@ -1,7 +1,7 @@
 "call pathogen#runtime_append_all_bundles()
 "call pathogen#helptags()
-execute pathogen#infect()
-filetype plugin indent on
+"execute pathogen#infect()
+"filetype plugin indent on
 
 if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
 	let &t_Co=256
