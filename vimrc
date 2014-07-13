@@ -3,6 +3,8 @@
 "execute pathogen#infect()
 "filetype plugin indent on
 
+so ~/.vim/templates.ar.vim
+
 if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
 	let &t_Co=256
 endif
@@ -13,6 +15,7 @@ else
 	colorscheme twilight256
 endif
        
+colorscheme default
 set number
 set hlsearch
 "set smartindent
