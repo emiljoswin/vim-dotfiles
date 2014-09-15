@@ -15,7 +15,6 @@ else
 	colorscheme twilight256
 endif
        
-colorscheme default
 set number
 set hlsearch
 "set smartindent
@@ -50,6 +49,7 @@ set autochdir "change directory automatically. handy in gvim.
 :nmap k gk
 :nmap <C-c> byw
 :nmap ;; <Esc>:w<CR>
+:imap pp <C-p>
 noremap H ^
 noremap L $
 
