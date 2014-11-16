@@ -10,9 +10,9 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gno
 endif
 
 if has("gui_running")
-	colorscheme twilight
+	colorscheme default
 else
-	colorscheme twilight256
+	colorscheme default
 endif
        
 set number
@@ -49,7 +49,7 @@ set autochdir "change directory automatically. handy in gvim.
 :nmap k gk
 :nmap <C-c> byw
 :nmap ;; <Esc>:w<CR>
-:imap pp <C-p>
+:imap jj <C-p>
 noremap H ^
 noremap L $
 
