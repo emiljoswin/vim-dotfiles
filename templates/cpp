@@ -9,11 +9,12 @@
 using namespace std;
 
 #define FOR(container, it) \
-  for (typeof (container.begin()) it = container.begin(); it != container.end(); it++)
+  for (decltype (container.begin()) it = container.begin(); it != container.end(); it++)
 #define all(c) c.begin(), c.end()
 #define present(container, element) \
   (container.find(element) != container.end())
 #define sz(a) int((a).size())
+#define artov(ar) ar, ar + (sizeof (ar)/ sizeof(int))
 
 int main () {
 
