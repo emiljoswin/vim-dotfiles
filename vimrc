@@ -56,4 +56,5 @@ noremap L $
 inoremap 	{<CR> {<CR>}<Esc>O
 inoremap 	( ()<Left>
 inoremap 	() ()
+inoremap 	" ""<Left>
 
