@@ -47,7 +47,10 @@ set autochdir "change directory automatically. handy in gvim.
 :imap jk <Esc>
 :nmap j gj
 :nmap k gk
+
+"copy a word
 :nmap <C-c> byw
+
 :nmap ;; <Esc>:w<CR>
 :imap jj <C-p>
 noremap H ^
@@ -58,3 +61,6 @@ inoremap 	( ()<Left>
 inoremap 	() ()
 inoremap 	" ""<Left>
 
+"Enter paste mode. 
+"There cannot be a direct auto exit from paste mode as not having that is the whole point of using paste mode"
+:nmap pp  :set paste<CR>
