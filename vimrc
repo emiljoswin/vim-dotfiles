@@ -63,4 +63,5 @@ inoremap 	" ""<Left>
 
 "Enter paste mode. 
 "There cannot be a direct auto exit from paste mode as not having that is the whole point of using paste mode"
-:nmap pp  :set paste<CR>
+:nmap vv  :set paste<CR>
+:nmap <C-v> :set nopaste<CR>
